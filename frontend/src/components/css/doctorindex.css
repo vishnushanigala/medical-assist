@@ -1,0 +1,9 @@
+.index table {
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Adjust the second value to increase/decrease the distance between rows */
+}
+
+.index th, td {
+    border: 1px solid black;
+    padding: 10px; /* Adjust the padding as needed */
+}

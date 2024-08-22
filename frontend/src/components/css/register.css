@@ -1,0 +1,57 @@
+.register body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.register .container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register input[type="email"],
+.register input[type="text"],
+.register input[type="password"],
+.register select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.register button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register button:hover {
+    background-color: #45a049;
+    border-radius: 15px;
+}
+
+.register .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
